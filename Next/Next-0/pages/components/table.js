@@ -1,9 +1,12 @@
-export default function Tabela(){
+import Link from 'next/link'
+import styles from '../../styles/Table.module.css'
+
+export default function Table(){
     
     return (
        <div>
-          <link rel="stylesheet" href="styles/Table.module.css"></link>
-          <table class="table">
+          
+          <table className={styles.table}>
             <tbody>
                 <tr>
                     <th>Bebidas</th>

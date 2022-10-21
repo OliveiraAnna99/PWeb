@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic'
 import styles from '../styles/Table.module.css'
-const Tabela = dynamic(() => import('./components/table'), {
+const Table = dynamic(() => import('./components/table'), {
    suspense: true,
 });
 
@@ -16,7 +16,7 @@ export default function Home(){
           <h2>
             Viva Santana!
           </h2>
-          <Tabela />
+          <Table />
        </div>
 
     )
