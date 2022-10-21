@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import styles from '../../styles/Table.module.css'
-
 export default function Table(){
     
     return (

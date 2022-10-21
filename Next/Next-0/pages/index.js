@@ -17,7 +17,9 @@ export default function Home(){
             Viva Santana!
           </h2>
           <Table />
+      
        </div>
 
     )
  }
+ 
