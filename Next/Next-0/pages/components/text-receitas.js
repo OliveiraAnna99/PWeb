@@ -3,6 +3,7 @@ import styles from '../../styles/Main.module.css';
 import Calculadora from '../calculadora';
 import {Pet} from '../virtual-pet';
 import {FormSoma} from '../elementos/form-soma';
+import {Darklight} from '../elementos/lampada';
 
 
 
@@ -74,12 +75,29 @@ function BlockIntroReceita(){
               <p className={styles.textInfo2}>
                 Nesse caso, faremos o seguinte, criaremos uma função em outro arquivo que realizará essa soma a partir da 
                 questão anterior e tudo que você precisará fazer é clicar no botão soma que também foi criado nesse mesmo 
-                arquivo seperado a qual estamos nos referindo.
+                arquivo separado a qual estamos no referindo
                 
               </p>
               
             </div>
+            <h6> 3. Crie um novo componente ou utilize algum componente já criado e passe alguns parametros.
+            </h6>
+      
+         <div className={styles.contentCalc}>
+           <br></br>
+           <p className={styles.textInfo2}>
+             Nesse caso, criamremos um novo componente 'Lampada.js' dentro do diretório 'elementos'. Nele 
+             basicamente iremos utilizar os parametros para definir se a lampada está acesa ou apagada e alterar 
+             o estado da lampada de acordo com essas condições. Obs: Ainda não foi totalmente implementado
+             
+           </p>
+         
+         </div>
+         <div>
+           <Darklight/>
            
+         </div>
+         
         </div>
       </div>
     )
