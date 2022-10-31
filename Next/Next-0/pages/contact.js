@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from '../styles/Button.module.css'
+import styles from '../styles/Main.module.css'
 export default function Principal(){
 
     return (
