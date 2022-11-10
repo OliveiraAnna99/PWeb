@@ -1,0 +1,50 @@
+{
+  "components\\text-home.js -> ./elements-home": {
+    "id": "components\\text-home.js -> ./elements-home",
+    "files": [
+      "static/chunks/pages_components_elements-home_js.js"
+    ]
+  },
+  "index.js -> ./components/button-circle": {
+    "id": "index.js -> ./components/button-circle",
+    "files": [
+      "static/chunks/pages_components_button-circle_js.js"
+    ]
+  },
+  "index.js -> ./components/navbar": {
+    "id": "index.js -> ./components/navbar",
+    "files": [
+      "static/chunks/pages_components_navbar_js.js"
+    ]
+  },
+  "index.js -> ./components/table": {
+    "id": "index.js -> ./components/table",
+    "files": [
+      "static/chunks/pages_components_table_js.js"
+    ]
+  },
+  "index.js -> ./components/text-home": {
+    "id": "index.js -> ./components/text-home",
+    "files": [
+      "static/chunks/pages_components_text-home_js.js"
+    ]
+  },
+  "receitas.js -> ./components/navbar": {
+    "id": "receitas.js -> ./components/navbar",
+    "files": [
+      "static/chunks/pages_components_navbar_js.js"
+    ]
+  },
+  "receitas.js -> ./components/table": {
+    "id": "receitas.js -> ./components/table",
+    "files": [
+      "static/chunks/pages_components_table_js.js"
+    ]
+  },
+  "receitas.js -> ./components/text-receitas": {
+    "id": "receitas.js -> ./components/text-receitas",
+    "files": [
+      "static/chunks/pages_components_text-receitas_js.js"
+    ]
+  }
+}
