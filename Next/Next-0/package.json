@@ -1,7 +1,6 @@
 {
   "name": "next-0",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
@@ -12,6 +11,17 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.2",
-    "next": "^12.3.1"
-  }
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OliveiraAnna99/PWeb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OliveiraAnna99/PWeb/issues"
+  },
+  "homepage": "https://github.com/OliveiraAnna99/PWeb#readme",
+  "description": ""
 }
