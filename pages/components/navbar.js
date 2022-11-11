@@ -12,9 +12,7 @@ function Navbar(){
                 <li><a href="/contact">Contato</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li>
-                    <a href="/receitas">Receitas</a>
-                    
-
+                    <a href="/all_receitas">Receitas</a>
                 </li>
             </ul>           
         </div>

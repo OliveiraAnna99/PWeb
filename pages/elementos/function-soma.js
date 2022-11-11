@@ -17,4 +17,21 @@ function somar(){
     
 }
 
+function fatorial(){
+    let valor1 = parseInt(document.getElementById('fac1').value);
+    let fact = valor1;
+    while(valor1 > 1){
+        valor1 = valor1 -1;
+        fact *= valor1;
+    }
+    let eResul = document.getElementById('resultado');
+    if(eResul.textContent == undefined){
+        eResul.textContent = String(fact);
+    }else{
+        eResul.innerHTML = String(fact);
+    }
+    
+}
+
 export {somar}
+export {fatorial}

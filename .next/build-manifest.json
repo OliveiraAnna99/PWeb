@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/movies2": [
+    "/all_receitas": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/movies2.js"
+      "static/chunks/pages/all_receitas.js"
     ]
   },
   "ampFirstPages": []

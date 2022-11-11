@@ -2,5 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/movies2": "pages/movies2.js"
+  "/all_receitas": "pages/all_receitas.js"
 }
