@@ -1,7 +1,6 @@
 /*http://www.omdbapi.com/?apikey=218bd007&s=bagdad*/
-export default function Movies(){
-
-
+/*
+function Movies(){
 
     const data = {
 
@@ -64,14 +63,46 @@ export default function Movies(){
 }
 
     return (
-
-        <div>
-            <div>
-                {data.Search[0].Title} --- {data.Search[0].Year}                
-            </div>
-        </div>
+         <div>            
+            { data.Search.map( (m) => <div>{m.Title} --- {m.Year}</div>) }      
+            <br></br>      
+            <br></br>      
+            <br></br>
+            { data.Search.map(transformar) }        
+         </div>
 
     )
 
 }
+*/
+export default function Movies({data}){
 
+    return (
+        <div>
+            <div>
+                 {data.Search.map( (m) => <div>{m.Title} --- {m.Year}</div>  )}               
+            </div>
+        </div>
+    )
+
+}
+
+
+function transformar(elemento){
+
+    return (<div>{elemento.Title} --- {elemento.Year}</div>)
+ 
+ }
+
+
+ export async function getServerSideProps(context){
+
+    const res = await fetch(`http://www.omdbapi.com/?apikey=218bd007&s=bagdad`)
+    const data = await res.json()
+    return {
+        props: {
+            data
+        }
+    }
+  
+  }
