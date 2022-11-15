@@ -49,5 +49,6 @@ function FormFatorial(props){
     );
 }
 
+/*
 export {FormSoma};
-export {FormFatorial};
+export {FormFatorial};*/

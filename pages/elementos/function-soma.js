@@ -32,6 +32,6 @@ function fatorial(){
     }
     
 }
-
+/* para subir o site usando o vercel nao pode haver funções sem export default
 export {somar}
-export {fatorial}
+export {fatorial}*/
