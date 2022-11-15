@@ -1,8 +1,8 @@
 
 import dynamic from 'next/dynamic'
 import styles from '../../styles/Main.module.css'
-//import {FormSoma} from '../elementos/form-soma';
-//import {FormFatorial} from '../elementos/form-soma';
+import {FormSoma} from '../elementos/form-soma';
+import {FormFatorial} from '../elementos/form-soma';
 function Receita2(){
     return(
         <div>
@@ -22,7 +22,7 @@ function Receita2(){
             
             </div>
             <div className={styles.form}>
-            {/*  <FormSoma/>*/}
+              <FormSoma/>
     
             </div>
           </div>
@@ -56,7 +56,7 @@ function Receita2(){
           
           </div>
           <div className={styles.form}>
-             {/* <FormFatorial name ='resultado'/> */}
+              <FormFatorial name ='resultado'/>
               
     
           </div>

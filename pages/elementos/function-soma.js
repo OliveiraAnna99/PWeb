@@ -1,5 +1,5 @@
 
-/*
+
 import {FormSoma} from '../elementos/form-soma'
 function somar(){
     let valor1 = parseInt(document.getElementById('v1').value);
@@ -31,7 +31,7 @@ function fatorial(){
         eResul.innerHTML = String(fact);
     }
     
-}*/
-/* para subir o site usando o vercel nao pode haver funções sem export default
+}
+
 export {somar}
-export {fatorial}*/
+export {fatorial}

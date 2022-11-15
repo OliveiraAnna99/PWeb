@@ -8,6 +8,5 @@ function Pet(){
         </div>
     );
 }
-/* Como no vercel os componentes devem ser export default, vou pecisar modificar
-o codigo da questão 1, mas da pra fazer dessa forma abaico:
-export {Pet}; */
+
+export {Pet}; 

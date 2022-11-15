@@ -1,4 +1,4 @@
-/*import styles from '../../styles/Main.module.css'
+import styles from '../../styles/Main.module.css'
 import {fatorial, somar} from '../elementos/function-soma'
 function FormSoma(){
 
@@ -47,8 +47,7 @@ function FormFatorial(props){
         </div>
         </div>
     );
-}*/
+}
 
-/*
 export {FormSoma};
-export {FormFatorial};*/
+export {FormFatorial};
