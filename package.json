@@ -2,10 +2,12 @@
   "name": "next-0",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "dev": "next dev",
-    "vercel-build": "npm run prepare && next build"
-  },
+  "script":{
+   "dev": "next dev",
+    "build": "next build", 
+    "start": "next start",
+    "lint": "next lint"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
