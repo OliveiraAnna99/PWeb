@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "pages_components_button-circle_js";
+exports.ids = ["pages_components_button-circle_js"];
+exports.modules = {
+
+/***/ "./pages/components/button-circle.js":
+/*!*******************************************!*\
+  !*** ./pages/components/button-circle.js ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_Main_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../styles/Main.module.css */ \"./styles/Main.module.css\");\n/* harmony import */ var _styles_Main_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_Main_module_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction ButtonCircle() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_styles_Main_module_css__WEBPACK_IMPORTED_MODULE_1___default().btnCircle)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\karol\\\\BSI\\\\PWeb\\\\pages\\\\components\\\\button-circle.js\",\n                lineNumber: 7,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_styles_Main_module_css__WEBPACK_IMPORTED_MODULE_1___default().btnCircle2)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\karol\\\\BSI\\\\PWeb\\\\pages\\\\components\\\\button-circle.js\",\n                lineNumber: 10,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_styles_Main_module_css__WEBPACK_IMPORTED_MODULE_1___default().btnCircle)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\karol\\\\BSI\\\\PWeb\\\\pages\\\\components\\\\button-circle.js\",\n                lineNumber: 13,\n                columnNumber: 13\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\karol\\\\BSI\\\\PWeb\\\\pages\\\\components\\\\button-circle.js\",\n        lineNumber: 6,\n        columnNumber: 9\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ButtonCircle);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9jb21wb25lbnRzL2J1dHRvbi1jaXJjbGUuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7QUFBQTtBQUFrRDtBQUdsRCxTQUFTQyxZQUFZLEdBQUU7SUFDbkIscUJBQ0ksOERBQUNDLEtBQUc7OzBCQUNBLDhEQUFDQSxLQUFHO2dCQUFDQyxTQUFTLEVBQUVILDBFQUFnQjs7Ozs7b0JBRTFCOzBCQUNOLDhEQUFDRSxLQUFHO2dCQUFDQyxTQUFTLEVBQUVILDJFQUFpQjs7Ozs7b0JBRTNCOzBCQUNOLDhEQUFDRSxLQUFHO2dCQUFDQyxTQUFTLEVBQUVILDBFQUFnQjs7Ozs7b0JBRTFCOzs7Ozs7WUFDSixDQUNSO0FBQ04sQ0FBQztBQUVELGlFQUFlQyxZQUFZLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9uZXh0LTAvLi9wYWdlcy9jb21wb25lbnRzL2J1dHRvbi1jaXJjbGUuanM/ZTMzZCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgc3R5bGVzIGZyb20gJy4uLy4uL3N0eWxlcy9NYWluLm1vZHVsZS5jc3MnO1xyXG5cclxuXHJcbmZ1bmN0aW9uIEJ1dHRvbkNpcmNsZSgpe1xyXG4gICAgcmV0dXJuKFxyXG4gICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMuYnRuQ2lyY2xlfT5cclxuICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLmJ0bkNpcmNsZTJ9PlxyXG4gICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMuYnRuQ2lyY2xlfT5cclxuICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgKTtcclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgQnV0dG9uQ2lyY2xlOyJdLCJuYW1lcyI6WyJzdHlsZXMiLCJCdXR0b25DaXJjbGUiLCJkaXYiLCJjbGFzc05hbWUiLCJidG5DaXJjbGUiLCJidG5DaXJjbGUyIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/components/button-circle.js\n");
+
+/***/ })
+
+};
+;
