@@ -80,8 +80,10 @@ export default function Movies({data}){
     return (
         <div>
             <div>
+                 {/* Questão 1 da Receita 3 realizar pesquisas por titulo e ano*/}
                  {data.Search.map( (m) => <div>{m.Title} --- {m.Year}</div>  )}               
             </div>
+           
         </div>
     )
 

@@ -1,5 +1,7 @@
 import useSWR from 'swr'
 import {useState} from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 export default function Movies3(){
 
     const [url, setUrl] = useState('')
@@ -45,7 +47,9 @@ export function TheLink({url, handler}){
 
     return (
         <div>
-            <a href="/movies3.js" onClick={handler}> {url === '' ? 'Mostrar' : 'Ocultar'} </a>
+           
+                <a href="/movies3.js" onClick={handler}> {url === '' ? 'Mostrar' : 'Ocultar'} </a>
+          
         </div>
     )
 

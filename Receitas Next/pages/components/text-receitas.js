@@ -9,11 +9,16 @@ const Receita1 = dynamic(() => import('../receitas/receita01'), {
 const Receita2 = dynamic(() => import('../receitas/receita02'), {
   suspense: true,
 });
+
+const Receita3 = dynamic(() => import('../receitas/receita03'), {
+  suspense: true,
+});
 function BlockIntroReceita(){
     return(
       <div className={styles.receita}>
             <Receita1 />
             <Receita2 />
+            <Receita3 />
       </div>
     )
 }
