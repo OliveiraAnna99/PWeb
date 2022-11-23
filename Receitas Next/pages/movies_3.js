@@ -81,7 +81,7 @@ export default function Movies({data, pesquisar}){
         <div>
            <center>
               <form method="GET">
-                  <input type="text" name="pesquisar" placeholder="Busque pelo ano:" defaultValue={pesquisar}></input>
+                  <input type="text" name="pesquisar" placeholder="Busque por ..." defaultValue={pesquisar}></input>
                   <input type="submit" value="Buscar"></input>
               </form>
             </center> 

@@ -4,8 +4,8 @@ export default function Movies({data}){
     return (
         <div>
             <div>
-                 {/* Questão 1 da Receita 3 realizar pesquisas por titulo e ano*/}
-                 {data.Search.map( (m) => <div>{m.Title} --- {m.Year}</div>  )}               
+                 {/* Questão 2 da Receita 3 exibir imagem*/}
+                 {data.Search.map( (m) => <div><center><img src={m.Poster}></img></center> <center>{m.Title} --- {m.Year}</center></div> )}               
             </div>
             <div>
                  <img src={data.Poster}></img>            
