@@ -57,7 +57,7 @@ function Receita3(){
           </div>
           <div>
             <button  className={styles.botaoSomador}> 
-              <a href='/movies_3?pesquisar=bagdad'>Código da Receita 3 - Exercicio 3</a>
+              <a href='/movies_3?pesquisar=bagdad'>Código da Receita 3 - Exercicio 2</a>
             </button>
           </div>
           </div>

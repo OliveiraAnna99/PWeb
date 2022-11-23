@@ -103,6 +103,13 @@ h1:not(.important){
     display: flex;
     
   }
+  .textInfo3{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    
+  }
   
  .gif{
    width: 50%;
