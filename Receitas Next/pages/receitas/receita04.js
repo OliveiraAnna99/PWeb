@@ -31,12 +31,12 @@ function Receita4(){
             <div className={styles.contentCalc}>
               <br></br>
               <p className={styles.textInfo3}>
-                texto da questao 1
+                Para verificar a resolução da questão acesse o link abaixo ou procure pela pagina 'receita4'
               </p>
             
             </div>
                      <button  className={styles.botaoSomador}> 
-                         <a href='/movies_1?pesquisar=bagdad'>Código da Receita 4 - Exercicio 1</a>
+                         <a href='/receita4Movies/receita4'>Código da Receita 4 - Exercicio 1</a>
                      </button>
                      <div className={styles.introReceita}>
             <h6>2. Exibir inforrmações sobre a localização do usuário </h6>
@@ -44,13 +44,14 @@ function Receita4(){
               <div className={styles.contentCalc}>
               <br></br>
               <p className={styles.textInfo3}>
-                texto da questão 2
-            
+                Para verificar a resolução da questão acesse o link abaixo, para resolver essa
+                questão foi necessário realizar um cadastro no site mencionado na receita para 
+                que obtermos o API key necessário para capturarmos os dados acerca da nossa localização
               </p>
             </div>
             <div>
               <button  className={styles.botaoSomador}> 
-                <a href='/movies_2'>Código da Receita 4 - Exercicio 2</a>
+                <a href='/receita4t2'>Código da Receita 4 - Exercicio 2</a>
               </button>
             </div>
 
@@ -59,12 +60,12 @@ function Receita4(){
             <div className={styles.contentCalc}>
             <br></br>
             <p className={styles.textInfo3}>
-              texto do exercicio 3
+                Acesse o link abaixo
             </p>
           </div>
           <div>
             <button  className={styles.botaoSomador}> 
-              <a href='/movies_3?pesquisar=bagdad'>Código da Receita 4 - Exercicio 3</a>
+              <a href='/receita4Movies2/receita4'>Código da Receita 4 - Exercicio 3</a>
             </button>
           </div>
           </div>

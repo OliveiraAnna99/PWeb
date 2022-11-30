@@ -2,5 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/all_receitas": "pages/all_receitas.js"
+  "/all_receitas": "pages/all_receitas.js",
+  "/receita4t2": "pages/receita4t2.js",
+  "/receita4Movies2/receita4": "pages/receita4Movies2/receita4.js",
+  "/receita4Movies2/[imdbID]": "pages/receita4Movies2/[imdbID].js"
 }
