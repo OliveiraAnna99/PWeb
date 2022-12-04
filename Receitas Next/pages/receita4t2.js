@@ -1,5 +1,8 @@
+
 import useSWR from 'swr'
 import {useRouter} from 'next/router'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Card, CardBody, CardText, CardLink, CardTitle, CardSubtitle, CardHeader } from 'reactstrap';
 
 function localizacao(){
     const router = useRouter();
@@ -11,11 +14,19 @@ function localizacao(){
 
     return (
         <div>
-            {Object.keys(data).map( m => (
-                <div>
-                    <center><h2><b>{m}:</b></h2> {data[m]}</center> 
-                </div>
-            ))}
+            <Card>
+                <CardBody>
+                    <CardHeader tag="h1"></CardHeader>
+                    <CardTitle tag ="h3"><b>Info Location</b></CardTitle>
+                </CardBody>
+                <CardBody>
+                    <CardText>
+                        {Object.keys(data).map( m => (       
+                           <p><b>{m}:</b> {data[m]}</p>
+                        ))}
+                    </CardText>
+                </CardBody>
+            </Card>
         </div>
     )    
 }

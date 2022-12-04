@@ -1,86 +1,88 @@
 import dynamic from 'next/dynamic'
 import styles from '../styles/Main.module.css'
-
+import { Container, Row, Col, Input, Button, Card, CardBody } from 'reactstrap';
 function Calculadora(){
+    const buttonStyle  = {width: "100%" };
+    const containerStyle = {width: "25%"};
     return (
-        <div className={styles.modelCalculadora}>
-            <div className={styles.btnCalcColumn}>
-
-                <div className={styles.btnCalcRow}>
-                    <div className={styles.btnAc}>
-                        <label className={styles.textBtnCalc}>AC</label>
-                    </div>
-                    <div className={styles.btnOperation}>
-                        <label className={styles.textBtnCalc}>()</label>
-                    </div>
-                    <div className={styles.btnOperation}>
-                        <label className={styles.textBtnCalc}>%</label>
-                    </div>
-                    <div className={styles.btnOperation}>
-                        <label className={styles.textBtnCalc}>/</label>
-                    </div>
-                </div>
-                
-                <div className={styles.btnCalcRow}>
-                    <div className={styles.btnNumber}>
-                        <label className={styles.textBtnCalc}>7</label>
-                    </div>
-                    <div className={styles.btnNumber2}>
-                        <label className={styles.textBtnCalc}>8</label>
-                    </div>
-                    <div className={styles.btnNumber2}>
-                        <label className={styles.textBtnCalc}>9</label>
-                    </div>
-                    <div className={styles.btnOperation2}>
-                        <label className={styles.textBtnCalc}>X</label>
-                    </div>
-                </div>
-                <div className={styles.btnCalcRow}>
-                    <div className={styles.btnNumber}>
-                        <label className={styles.textBtnCalc}>4</label>
-                    </div>
-                    <div className={styles.btnNumber2}>
-                        <label className={styles.textBtnCalc}>5</label>
-                    </div>
-                    <div className={styles.btnNumber2}>
-                        <label className={styles.textBtnCalc}>6</label>
-                    </div>
-                    <div className={styles.btnOperation2}>
-                       <label className={styles.textBtnCalc}>-</label>
-                    </div>
-                </div>
-                <div className={styles.btnCalcRow}>
-                    <div className={styles.btnNumber}>
-                        <label className={styles.textBtnCalc}>1</label>
-                    </div>
-                    <div className={styles.btnNumber2}>
-                        <label className={styles.textBtnCalc}>2 </label>
-                    </div>
-                    <div className={styles.btnNumber2}>
-                        <label className={styles.textBtnCalc}>3</label>
-                    </div>
-                    <div className={styles.btnOperation2}>
-                       <label className={styles.textBtnCalc}> + </label>
-                    </div>
-                </div>
-                <div className={styles.btnCalcRow}>
-                    <div className={styles.btnNumber}>
-                        <label className={styles.textBtnCalc}> 0 </label>
-                    </div>
-                    <div className={styles.btnNumber2}>
-                       <label className={styles.textBtnCalc}> , </label>
-                    </div>
-                    <div className={styles.btnNumber2}>
-                       <label className={styles.textBtnCalc}> Del </label>
-                    </div>
-                    <div className={styles.btnOperation3}>
-                       <label className={styles.textBtnCalc}> = </label>
-                    </div>
-                </div>
-            </div>
-          
+        <div>
+        <Card>
+        <CardBody>
+            <Container  style={containerStyle}>
+                <Row>
+                    <Col xs='12'>
+                        <Input></Input>
+                    </Col>
+                </Row>
+                <br></br>
+                <Row>
+                    <Col xs='9'>
+                        <Row>
+                            <Col xs='4'>
+                                <Button style={buttonStyle}>7</Button>
+                            </Col>
+                            <Col xs='4'>
+                                 <Button style={buttonStyle}>8</Button>
+                            </Col>
+                            <Col xs='4'>
+                                 <Button style={buttonStyle}>9</Button>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col xs='4'>
+                                 <Button style={buttonStyle}>4</Button>
+                            </Col>
+                            <Col xs='4'>
+                                <Button style={buttonStyle}>5</Button>
+                            </Col>
+                            <Col xs='4'>
+                                <Button style={buttonStyle}>6</Button>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col xs='4'>
+                                <Button style={buttonStyle}>1</Button>
+                            </Col>
+                            <Col xs='4'>
+                                <Button style={buttonStyle}>2</Button>
+                            </Col>
+                            <Col xs='4'>
+                                <Button style={buttonStyle}>3</Button>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col xs='4'>
+                                <Button style={buttonStyle}>C</Button>
+                            </Col>
+                            <Col xs='4'>
+                                <Button style={buttonStyle}>0</Button>
+                            </Col>
+                            <Col xs='4'>
+                                <Button style={buttonStyle}>=</Button>
+                            </Col>
+                        </Row>
+                    </Col>
+                    <Col xs='3'>
+                        <Row>
+                            <Col xs='12'>
+                                <Button style={buttonStyle}>%</Button>
+                            </Col>
+                            <Col xs='12'>
+                                <Button style={buttonStyle}>X</Button>
+                            </Col>
+                            <Col xs='12'>
+                                <Button style={buttonStyle}>-</Button>
+                            </Col>
+                            <Col xs='12'>
+                                <Button style={buttonStyle}>+</Button>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+            </Container>
+        </CardBody>
+        </Card>
         </div>
-        
     );
 }
 

@@ -1,27 +1,24 @@
-import styles from '../../styles/Main.module.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Form, Button, FormGroup, Label, Input, FormText } from 'reactstrap';
 import {fatorial, somar} from '../elementos/function-soma'
 function FormSoma(){
 
     return(
         <div>
-
-        <div>
-            <form method='POST' action=''>
-            <div className={styles.form}>
-                <input id="v1" type="text" placeholder='Digite um número'></input>
-            </div>
-            <div className={styles.form2}>
-                <input id="v2" type="text" placeholder='Digite um número'></input>
-            </div>
-        
-            </form>
-            <div className={styles.resul}>
-                <h5 >Resultado: </h5><h3 id='resultado2'></h3>
-            </div>
-        </div>
-        <div >
-            <button  className={styles.botaoSomador} onClick={somar}>Somar</button>
-        </div>
+            <Form method='POST' action=''>
+                <FormGroup>
+                    <Label>1º Parcela</Label>
+                    <Input type='text' placeholder='Digite um número' id='v1'></Input>
+                </FormGroup>
+                <FormGroup>
+                    <Label>2º Parcela</Label>
+                    <Input type='text' placeholder='Digite um número' id='v2'></Input>
+                </FormGroup>
+                <Button color='warning' onClick={somar}>Somar</Button>
+            </Form>
+            <Label>
+                Resultado: <Label id='resultado2'></Label>
+            </Label>
         </div>
     );
 }
@@ -30,21 +27,16 @@ function FormFatorial(props){
 
     return(
         <div>
-
-        <div>
-            <form method='POST' action=''>
-            <div className={styles.form}>
-                <input id="fac1" type="text" placeholder='Digite um número'></input>
-            </div>
-        
-            </form>
-            <div className={styles.resul}>
-                <h5 >Resultado: </h5><h3 id={props.name}></h3>
-            </div>
-        </div>
-        <div >
-            <button  className={styles.botaoSomador} onClick={fatorial}>Fatorial</button>
-        </div>
+            <Form method='POST' action=''>
+                <FormGroup>
+                    <Label>Número</Label>
+                    <Input type='text' placeholder='Digite um número' id='fac1'></Input>
+                </FormGroup>
+                <Button color='warning' onClick={fatorial}>Fatorial</Button>
+            </Form>
+            <Label>
+                Resultado: <Label id={props.name}></Label>
+            </Label>
         </div>
     );
 }

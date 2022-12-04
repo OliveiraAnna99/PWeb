@@ -3,7 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/all_receitas": "pages/all_receitas.js",
-  "/receita4t2": "pages/receita4t2.js",
-  "/receita4Movies2/receita4": "pages/receita4Movies2/receita4.js",
-  "/receita4Movies2/[imdbID]": "pages/receita4Movies2/[imdbID].js"
+  "/movies_1": "pages/movies_1.js"
 }
