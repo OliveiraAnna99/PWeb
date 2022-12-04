@@ -18,7 +18,7 @@ const Receita4 = dynamic(() => import('../receitas/receita04'), {
 });
 function BlockIntroReceita(){
     return(
-      <div className={styles.receita}>
+      <div>
             <Receita1 />
             <Receita2 />
             <Receita3 />

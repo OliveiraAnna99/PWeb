@@ -6,9 +6,6 @@ const Table = dynamic(() => import('./components/table'), {
    suspense: true,
 });
 
-
-
-
 const TitleHome = dynamic(() => import('./components/text-home'), {
    suspense: true,
 });
