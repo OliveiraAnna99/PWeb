@@ -1,7 +1,7 @@
 import useSWR from 'swr'
 import {useState} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Form, FormGroup, Label, Input, Card, CardBody} from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, Card, CardBody, Spinner, FormText, FormFeedback} from 'reactstrap';
 
 export function TheForm(){
    
@@ -20,14 +20,25 @@ export function TheForm(){
         </div>
     )
 }
-
+function loading(){
+    return(
+        <div>
+            <Spinner size='sm'/>
+        </div>
+    );
+}
 export function TheMovies({data,show, error}){
 
     if (!show) return (<div></div>)
-    if (!data) return (<div></div>)
+    if (!data) return (<div>Não encontrado</div>)
     if (data.error) return (<div>Falha na pesquisa</div>)
-    if (data.Search === '' ) return (<div>Carregando...</div>)
-  
+    if (data.Search === '' ) return (<div><br></br>
+
+        <Spinner size='sm'/>
+        <div>
+            Resultado não encontrado
+        </div>
+    </div>)
     return (
         <div>
             <br></br>
@@ -49,13 +60,6 @@ export function TheMovies({data,show, error}){
     
 }
 
-function Valida(){
-    var vazio = 0;
-    if(vazio == 0){
-      return(
-        <div>Nenhum resultado encontrado</div>
-    )}
-}
 
 
 export function TheLink({url, handler}){
